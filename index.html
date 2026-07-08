@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>A Rainy Day That Turned Into My Best Travel Memory — Munnar Travel Blog</title>
+  <meta name="description" content="An immersive first-person travel story about a monsoon trip to Munnar, Kerala. Explore rainy day photography guides, local street food reviews, gear checklists, and budget tips.">
+  <meta name="keywords" content="Munnar monsoon travel, rainy travel story, Kerala travel blog, rain photography guide, monsoon packing list, budget travel India, Munnar tourism">
+  <meta name="author" content="The Wandering Soul">
+  <link rel="canonical" href="https://yourtravelwebsite.com/a-rainy-day-travel-memory">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="A Rainy Day That Turned Into My Best Travel Memory — Munnar Monsoon Travel">
+  <meta property="og:description" content="Discover how a sudden deluge in the tea hills of Munnar transformed a ruined schedule into a beautiful, life-changing travel adventure.">
+  <meta property="og:image" content="./images/hero.png">
+  <meta property="og:url" content="https://yourtravelwebsite.com/a-rainy-day-travel-memory">
+  <meta property="og:site_name" content="Misty Trails Travel Stories">
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="A Rainy Day That Turned Into My Best Travel Memory">
+  <meta name="twitter:description" content="A cinematic reflection on finding beauty in unexpected monsoon downpours in the Western Ghats. Complete with rainy photography guides and local tips.">
+  <meta name="twitter:image" content="./images/hero.png">
+  
+  <!-- Fonts & Stylesheet -->
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- Schema Markup (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "A Rainy Day That Turned Into My Best Travel Memory",
+    "description": "An immersive narrative of traveling through Munnar during a torrential monsoon, showing the unexpected beauty of rain and local connections.",
+    "image": [
+      "https://yourtravelwebsite.com/images/hero.png"
+    ],
+    "datePublished": "2026-07-08T14:20:00+05:30",
+    "dateModified": "2026-07-08T14:20:00+05:30",
+    "author": {
+      "@type": "Person",
+      "name": "Angelin Abisha",
+      "url": "https://yourtravelwebsite.com/about"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Misty Trails Stories",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://yourtravelwebsite.com/images/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://yourtravelwebsite.com/a-rainy-day-travel-memory"
+    }
+  }
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is traveling during the rainy season worth it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, absolutely! Monsoon travel offers lush green landscapes, fewer crowds, discounted accommodation, and a dramatic, cinematic atmosphere that you won't experience in other seasons."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I protect my phone from rain?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Using a certified waterproof pouch, keeping it inside an inner pocket of a waterproof jacket, or using plastic zip-lock bags are highly effective ways to keep your phone dry."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What clothes should I wear in Munnar during monsoon?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Choose lightweight, quick-dry fabrics like polyester or nylon. Avoid thick denim, carry a reliable windcheater or waterproof jacket, and wear synthetic activewear."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is solo travel safe in Kerala during monsoon?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Kerala is generally very safe for solo travelers. However, check local alerts, avoid travel during heavy warnings, stay away from waterbodies during high flow, and avoid driving at night due to fog."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sticky Header & Translucent Navbar -->
+  <header>
+    <div class="nav-container">
+      <a href="#" class="logo">Misty<span>Trails</span></a>
+      
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#story" class="active">Read Story</a></li>
+          <li><a href="#destination">Destination Info</a></li>
+          <li><a href="#places">Places Explored</a></li>
+          <li><a href="#packing">Packing List</a></li>
+          <li><a href="#budget">Budget Guide</a></li>
+          <li><a href="#faq">FAQs</a></li>
+        </ul>
+      </nav>
+      
+      <button class="search-trigger" id="searchBtn" aria-label="Search Blog">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </button>
+    </div>
+    
+    <!-- Reading Progress Bar -->
+    <div class="progress-container">
+      <div class="progress-bar"></div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-wrapper">
+      <img src="./images/hero.png" alt="Misty tea gardens of Munnar under soft rain" class="hero-bg">
+    </div>
+    <canvas id="rainCanvas" class="rain-canvas"></canvas>
+    
+    <div class="hero-content">
+      <p class="hero-subtitle">"Sometimes the most unforgettable journeys begin when everything goes differently than planned."</p>
+      <h1 class="hero-title">A Rainy Day That Turned Into My Best Travel Memory</h1>
+      <div class="hero-buttons">
+        <a href="#story" class="btn btn-primary">Read My Story</a>
+        <a href="#packing" class="btn btn-secondary">Travel Checklist</a>
+      </div>
+    </div>
+    
+    <div class="scroll-indicator">
+      Scroll Down
+      <span></span>
+    </div>
+  </section>
+
+  <!-- My Story Section -->
+  <section id="story" class="section-light">
+    <div class="section-header">
+      <span class="section-label">Immersive Travelogue</span>
+      <h2 class="section-title">My Story: Lost in the Monsoon Mist</h2>
+    </div>
+    
+    <div class="story-editorial">
+      <p class="story-lead">
+        I had meticulously plotted my three-day trip to Munnar, the crown jewel of Kerala's hill stations. Five specific viewpoints, three waterfall shoots, a sunrise hike to Kolukkumalai, and a sunset overlooking the Anayirangal Dam. Every hour accounted for, every lens packed, every expectation sky-high. I expected blue skies dotted with fluffy cotton clouds. But nature had other plans.
+      </p>
+      
+      <div class="story-block">
+        <h3>Planning and the Forecast</h3>
+        <p class="story-dropcap">It was late July, the peak of the southwest monsoon season in southern India. My friends called me foolish. My weather app flashed warning symbols daily—flashing yellow alerts, heavy rain forecasts, and messages warning of potential traffic blocks on hilly roads. Yet, the stubborn traveler in me refused to cancel. I wanted to see the hills alive, painted in their deepest greens. I packed my heavy professional DSLR, three lenses, a carbon-fiber tripod, and two sets of clothes, convinced that I could find windows of dry hours between brief cloudbursts.</p>
+        <p>The journey from Kochi began under an overcast sky. The air felt heavy, loaded with moisture. As the local bus groaned up the winding hairpin bends from Adimali, the temperature dropped. The misty fragrance of wet eucalyptus and cedar trees began filling the cabin. The mood inside was quiet, almost reverent. Locals wrapped in warm woolen shawls stared out of the windows. I felt a sense of thrill. I was heading into the clouds, completely unaware that a sudden torrential downpour would wash my perfect plans completely away.</p>
+      </div>
+
+      <div class="story-quote">
+        <p>"The rain does not ruin travel; it strips away the noise and invites you to look closely at what is right in front of you."</p>
+        <cite>— Journal Entry, July 28</cite>
+      </div>
+
+      <div class="story-block">
+        <h3>The Moment the Skies Opened</h3>
+        <p>It happened just as we crossed the Neriamangalam Bridge, often called the gateway to the high ranges. The sky, which had been a soft slate gray, turned an ominous dark charcoal. In a matter of minutes, the wind howled through the window seams, and then, the sky broke. It wasn't a gentle shower; it was a wall of water, a continuous stream of rain that blurred the road completely. The bus driver had to slow down to a crawl, the wipers scraping wildly against the glass.</p>
+        <p>By the time I stepped down at the Munnar town terminal, the streets were bubbling channels of muddy water. Colorful umbrellas bobbed along the lanes. My waterproof backpack cover was immediately tested, and I ran to the nearest shelter under a concrete shop roof. The cold wind bit through my thin cotton shirt. Looking at the gray, misty wall covering the mountains, I realized my sunrise hike was canceled, my sunset viewpoints were invisible, and my camera would have to stay inside its bag. I felt a heavy wave of disappointment.</p>
+      </div>
+
+      <div class="story-block">
+        <h3>How My Plans Changed</h3>
+        <p>The next morning, the rain still beat a steady rhythm against my homestay window. Looking out, the mountains were completely swallowed by white, thick fog. The homestay owner, an elderly local named Thomas, shook his head with a warm smile. "No Kolukkumalai today, son. The forest officials closed the jeep trails due to mudslides. It's best to stay indoors or just wander around the town."</p>
+        <p>I felt trapped. I was a content creator, a photographer, a traveler who measured the success of a trip by the number of sites ticked off and photos captured. Being forced to sit idle felt like a waste of resources. But as the clock struck noon, the cabin fever became unbearable. I pulled on my raincoat, stepped into my waterproof sandals, took a small plastic bag for my phone, and decided to walk out into the rain. No destinations. No viewpoints. Just me and the wet roads.</p>
+      </div>
+
+      <div class="story-block">
+        <h3>Unexpected Discoveries and conversations</h3>
+        <p>Walking through the narrow pathways surrounding the tea gardens, the atmosphere felt deeply cinematic. Without the usual crowds of tourists, the roads were silent, save for the heavy drumming of drops on my umbrella and the gurgling of mountain streams. The tea leaves glistened in a brilliant, almost neon shade of emerald green. Mist rolled over the slopes like slow-moving smoke, hiding and then revealing the beautiful contours of the landscape.</p>
+        <p>Cold and dripping wet, I noticed a small wooden tea shack on the edge of the Lockhart estate. A warm, golden light shone from its window, and smoke rose from a chimney. I stepped inside. The aroma of crushed ginger, cardamom, and fresh tea leaves immediately wrapped around me. The owner, Joseph, and his wife, Mary, welcomed me with warm nods. There were no other customers. They cleared a wooden bench for me and handed me a dry towel.</p>
+        <p>"You chose a wild day to see Munnar," Joseph said in broken English, his eyes crinkling. As he handed me a glass of hot, steaming cardamom tea, we began talking. He told me about growing up in these hills, how the rain was the lifeline of the tea pickers, and how the monsoon brought a quiet peace that the winter tourist rush always destroyed. "People come here to take photos of the mountains," he remarked, "but the mountains only speak when they are hidden in the mist."</p>
+      </div>
+
+      <div class="story-block">
+        <h3>Peace in the Downpour: The Lesson learned</h3>
+        <p>I sat in that wooden shack for nearly three hours, sipping ginger tea and eating fresh, crispy banana fritters that Mary fried right before my eyes. We watched the rain together in comfortable silence. I watched the water droplets collect on the edges of the tin roof, growing larger and heavier until they fell into the puddles below, creating concentric rings of reflections. It was a deeply meditative moment. I didn't feel the urge to check my phone or check my camera battery. I was simply there, listening to the rhythm of the monsoon.</p>
+        <p>In my hurry to capture the world, I had forgotten how to live in it. The rain taught me that flexibility is the key to travel. When we let go of our strict schedules, we open ourselves up to genuine moments of connection, quiet introspection, and unexpected friendships. This rainy afternoon in a tiny roadside tea shack, surrounded by mist and warm laughter, became the absolute highlight of my trip. It wasn't about the grand views; it was about the peace of slowing down.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Destination Info Section -->
+  <section id="destination" class="section-light">
+    <div class="section-header">
+      <span class="section-label">Travel Guide</span>
+      <h2 class="section-title">The Destination: Munnar, Kerala</h2>
+    </div>
+    
+    <div class="destination-info">
+      <div class="destination-sidebar">
+        <h3>Munnar at a Glance</h3>
+        <ul class="info-list">
+          <li class="info-item">
+            <span class="info-label">State</span>
+            <span class="info-val">Kerala, India</span>
+          </li>
+          <li class="info-item">
+            <span class="info-label">Elevation</span>
+            <span class="info-val">1,600m (5,249 ft)</span>
+          </li>
+          <li class="info-item">
+            <span class="info-label">Best Season</span>
+            <span class="info-val">Sep to March (Winter)</span>
+          </li>
+          <li class="info-item">
+            <span class="info-label">Monsoon Months</span>
+            <span class="info-val">June to September</span>
+          </li>
+          <li class="info-item">
+            <span class="info-label">Climate</span>
+            <span class="info-val">Subtropical Highland</span>
+          </li>
+          <li class="info-item">
+            <span class="info-label">Local Languages</span>
+            <span class="info-val">Malayalam, Tamil</span>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="destination-details">
+        <h3>Why Choose Munnar in the Monsoon?</h3>
+        <p>Located in the Western Ghats mountain range, Munnar is famous for its endless rolling tea gardens, misty weather, and beautiful biodiversity. While most guidebooks recommend visiting during the dry winter months, the monsoon season (June to September) transforms the region into an ethereal green wonderland. Waterfall streams roar to life, dust is washed away from the valleys, and a blanket of dense fog creates an intimate, calm environment.</p>
+        
+        <h3>Local Culture & Climate</h3>
+        <p>The culture of Munnar is a blend of Keralite and Tamil influences, largely due to the history of tea plantation workers who settled here generations ago. During the monsoon, the climate remains cool and humid, with temperatures hovering between 15°C and 22°C. The weather can change in minutes—sudden heavy downpours are followed by quiet misty clearances, offering dramatic backdrops for photographers and nature enthusiasts.</p>
+        
+        <h3>Getting Around</h3>
+        <p>Public transport is managed by KSRTC buses, which connect Munnar town with major towns down the hill. For local travel, auto-rickshaws and jeeps are readily available at the central stands. During the rainy season, it's highly recommended to hire local drivers rather than driving yourself, as hill roads can get extremely slippery, and thick fog can reduce visibility to less than five meters.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Places Explored Section -->
+  <section id="places">
+    <div class="section-header">
+      <span class="section-label">Itinerary Highlights</span>
+      <h2 class="section-title">Places Explored in the Rain</h2>
+    </div>
+    
+    <div class="places-grid">
+      <!-- Lockhart Tea Estate -->
+      <div class="place-card">
+        <div class="place-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1542856391-010fb87dcfed?auto=format&fit=crop&w=600&q=80" alt="Lush green tea gardens under heavy monsoon clouds" class="place-img">
+          <span class="place-badge">Tea Fields</span>
+        </div>
+        <div class="place-card-content">
+          <h3>Lockhart Tea Estate</h3>
+          <p class="place-history">Established in 1879, Lockhart is one of the oldest tea plantations in Munnar, managed under traditional tea-making guidelines.</p>
+          <p class="place-desc">In the monsoon rain, the slopes of Lockhart look like a giant emerald canvas washed clean. The sight of tea pickers wrapped in plastic sheets carrying bags over their heads through the swirling fog is beautiful and humbling.</p>
+          <div class="place-meta">
+            <div class="place-meta-item">
+              <span class="place-meta-icon">Rain View:</span>
+              <span class="place-meta-text">Misty, glowing green tea terraces</span>
+            </div>
+            <div class="place-meta-item">
+              <span class="place-meta-icon">Photo Tip:</span>
+              <span class="place-meta-text">Use the winding paths as leading lines</span>
+            </div>
+            <div class="place-meta-item">
+              <span class="place-meta-icon">Entry Fee:</span>
+              <span class="place-meta-text">₹200 (includes Museum tour)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Attukad Waterfalls -->
+      <div class="place-card">
+        <div class="place-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Monsoon waterfall roaring down rocky hills" class="place-img">
+          <span class="place-badge">Waterfalls</span>
+        </div>
+        <div class="place-card-content">
+          <h3>Attukad Waterfalls</h3>
+          <p class="place-history">A popular tourist destination nestled between Munnar town and Pallivasal, famous for trekking and scenic photography.</p>
+          <p class="place-desc">During the dry season, Attukad is a modest cascade, but the monsoon turns it into a wild, roaring beast. The water crashes down dark rocks with deafening force, spraying a cool mist that reaches far down the road.</p>
+          <div class="place-meta">
+            <div class="place-meta-item">
+              <span class="place-meta-icon">Rain View:</span>
+              <span class="place-meta-text">Spectacular, powerful water flow</span>
+            </div>
+            <div class="place-meta-item">
+              <span class="place-meta-icon">Photo Tip:</span>
+              <span class="place-meta-text">Protect your lens from flying spray</span>
+            </div>
+            <div class="place-meta-item">
+              <span class="place-meta-icon">Entry Fee:</span>
+              <span class="place-meta-text">Free (Public viewpoint)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Eravikulam National Park -->
+      <div class="place-card">
+        <div class="place-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1437964706703-40b90bdf563a?auto=format&fit=crop&w=600&q=80" alt="Mountain goats standing in high mist" class="place-img">
+          <span class="place-badge">Wild Sanctuary</span>
+        </div>
+        <div class="place-card-content">
+          <h3>Eravikulam National Park</h3>
+          <p class="place-history">Home of the endangered Nilgiri Tahr mountain goat and the famous Kurinji flowers that bloom once every twelve years.</p>
+          <p class="place-desc">The wet weather forces the Nilgiri Tahrs down to the roadside rocks, looking for salt deposits. Seeing these wild mountain goats standing calmly in the mist under soft drizzle is a memorable wildlife encounter.</p>
+          <div class="place-meta">
+            <div class="place-meta-item">
+              <span class="place-meta-icon">Rain View:</span>
+              <span class="place-meta-text">Misty grass meadows and dramatic cliffs</span>
+            </div>
+            <div class="place-meta-item">
+              <span class="place-meta-icon">Photo Tip:</span>
+              <span class="place-meta-text">Use a zoom lens for close-ups of Tahrs</span>
+            </div>
+            <div class="place-meta-item">
+              <span class="place-meta-icon">Entry Fee:</span>
+              <span class="place-meta-text">₹200 (Indians), ₹3000 (Foreigners)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Beautiful Moments Section -->
+  <section id="moments" class="section-light">
+    <div class="section-header">
+      <span class="section-label">Authentic Experiences</span>
+      <h2 class="section-title">Cozy Moments I Never Expected</h2>
+    </div>
+    
+    <div class="moments-grid">
+      <div class="moment-card">
+        <span class="moment-number">01</span>
+        <h3>Watching Rain from a Cozy Café</h3>
+        <p>Sitting in Joseph's tiny tea stall with a hot cup of cardamom tea, smelling the wet earth (petrichor) rising from the adjacent tea gardens, and watching clouds drift lazily across the valley below.</p>
+      </div>
+      
+      <div class="moment-card">
+        <span class="moment-number">02</span>
+        <h3>Walking Quiet Hill Streets</h3>
+        <p>Wandering down silent paths near the Mattupetty area, where the usual tourist crowds were replaced by peaceful bird calls and the gentle patter of raindrops on pine needles.</p>
+      </div>
+      
+      <div class="moment-card">
+        <span class="moment-number">03</span>
+        <h3>Hot local monsoon snacks</h3>
+        <p>Savoring crispy, hot Pazham Pori (banana fritters) directly from the boiling oil pan at a local roadside shop while shivering slightly in the cool monsoon breeze.</p>
+      </div>
+      
+      <div class="moment-card">
+        <span class="moment-number">04</span>
+        <h3>Listening to the Rain's Music</h3>
+        <p>Lying awake in my homestay, listening to the heavy monsoon downpour drumming against the corrugated tin roofs, a sound that put me into a deep, peaceful sleep.</p>
+      </div>
+
+      <div class="moment-card">
+        <span class="moment-number">05</span>
+        <h3>Puddle Reflection Photography</h3>
+        <p>Finding still, glassy water pools along the wet paths and capturing upside-down reflections of the tea plants and colorful umbrellas against the gray sky.</p>
+      </div>
+
+      <div class="moment-card">
+        <span class="moment-number">06</span>
+        <h3>Seeing a Double Rainbow</h3>
+        <p>Witnessing a sudden break in the storm clouds at sunset, when the sun broke through and cast a double rainbow spanning across the valleys.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Packing Checklist -->
+  <section id="packing">
+    <div class="interactive-packing">
+      <div class="packing-intro">
+        <span class="section-label">Interact & Pack</span>
+        <h3>Monsoon Packing Checklist</h3>
+        <p>Prepare for your wet-weather travel with this interactive checklist. Tick off items as you pack them. Your packing progress will be saved automatically to your device, ensuring you don't miss any essentials.</p>
+        
+        <div class="packing-progress-wrapper">
+          <div class="progress-info">
+            <span>Progress</span>
+            <span class="progress-percentage">0% Packed</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill"></div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="checklist-container">
+        <label class="checklist-item">
+          <input type="checkbox" id="raincoat">
+          <span class="custom-checkbox"></span>
+          <div class="item-details">
+            <span class="item-name">Heavy-duty Raincoat</span>
+            <span class="item-desc">Prefer breathable fabrics with high waterproof ratings.</span>
+          </div>
+        </label>
+        
+        <label class="checklist-item">
+          <input type="checkbox" id="umbrella">
+          <span class="custom-checkbox"></span>
+          <div class="item-details">
+            <span class="item-name">Windproof Umbrella</span>
+            <span class="item-desc">A sturdy umbrella to withstand strong mountain drafts.</span>
+          </div>
+        </label>
+        
+        <label class="checklist-item">
+          <input type="checkbox" id="backpack">
+          <span class="custom-checkbox"></span>
+          <div class="item-details">
+            <span class="item-name">Waterproof Backpack Cover</span>
+            <span class="item-desc">Protects laptop and spare clothes from heavy moisture.</span>
+          </div>
+        </label>
+        
+        <label class="checklist-item">
+          <input type="checkbox" id="cameracover">
+          <span class="custom-checkbox"></span>
+          <div class="item-details">
+            <span class="item-name">Camera Rain Sleeve</span>
+            <span class="item-desc">A plastic pouch allowing you to shoot while standing under rain.</span>
+          </div>
+        </label>
+
+        <label class="checklist-item">
+          <input type="checkbox" id="powerbank">
+          <span class="custom-checkbox"></span>
+          <div class="item-details">
+            <span class="item-name">10,000mAh Power Bank</span>
+            <span class="item-desc">Essential as damp weather drains batteries faster.</span>
+          </div>
+        </label>
+
+        <label class="checklist-item">
+          <input type="checkbox" id="shoes">
+          <span class="custom-checkbox"></span>
+          <div class="item-details">
+            <span class="item-name">Quick-dry Shoes</span>
+            <span class="item-desc">Synthetic sandals or shoes with deep rubber grips.</span>
+          </div>
+        </label>
+
+        <label class="checklist-item">
+          <input type="checkbox" id="zipbags">
+          <span class="custom-checkbox"></span>
+          <div class="item-details">
+            <span class="item-name">Silica Gel & Plastic Zipbags</span>
+            <span class="item-desc">Protects memory cards and cash from sweat and dampness.</span>
+          </div>
+        </label>
+
+        <label class="checklist-item">
+          <input type="checkbox" id="towel">
+          <span class="custom-checkbox"></span>
+          <div class="item-details">
+            <span class="item-name">Microfiber Towel</span>
+            <span class="item-desc">Super absorbent, quick-drying, and packs tiny.</span>
+          </div>
+        </label>
+      </div>
+    </div>
+  </section>
+
+  <!-- Budget Breakdown Section -->
+  <section id="budget" class="section-light">
+    <div class="section-header">
+      <span class="section-label">Cost Breakdown</span>
+      <h2 class="section-title">Rainy Day Budgets</h2>
+    </div>
+    
+    <div class="budget-widget">
+      <!-- Tabs for budgets -->
+      <ul class="budget-tabs">
+        <li><button class="budget-tab-btn active" data-target="budget1k">Budget: ₹1,000</button></li>
+        <li><button class="budget-tab-btn" data-target="budget2k">Budget: ₹2,500</button></li>
+        <li><button class="budget-tab-btn" data-target="budget5k">Budget: ₹5,000</button></li>
+        <li><button class="budget-tab-btn" data-target="budget8k">Budget: ₹8,000</button></li>
+      </ul>
+      
+      <!-- Panel 1: ₹1,000 -->
+      <div class="budget-panel active" id="budget1k">
+        <div class="budget-breakdown">
+          <h4>Cost Estimation (₹1,000)</h4>
+          <ul class="budget-cost-list">
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Transportation (Local Bus)</span>
+              <span class="budget-item-value">₹150</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Accommodation (Dorm Bed)</span>
+              <span class="budget-item-value">₹450</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Meals (Local Mess)</span>
+              <span class="budget-item-value">₹220</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Snacks & Tea</span>
+              <span class="budget-item-value">₹80</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Attraction Entries</span>
+              <span class="budget-item-value">₹50</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Emergency Reserves</span>
+              <span class="budget-item-value">₹50</span>
+            </li>
+          </ul>
+        </div>
+        <div class="budget-itinerary">
+          <h4>Backpacker's Rainy Route</h4>
+          <ul class="budget-steps">
+            <li class="budget-step">
+              <span class="budget-step-time">08:00 AM</span>
+              <span class="budget-step-text">Board the local KSRTC bus from Aluva/Kochi to Munnar.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">01:00 PM</span>
+              <span class="budget-step-text">Arrive in town, walk to local backpacker hostel, check-in.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">03:30 PM</span>
+              <span class="budget-step-text">Enjoy hot parotta and tea at a local KSRTC stand eatery.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">05:00 PM</span>
+              <span class="budget-step-text">Walk under drizzle to Lockhart tea garden viewpoint paths.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Panel 2: ₹2,500 -->
+      <div class="budget-panel" id="budget2k">
+        <div class="budget-breakdown">
+          <h4>Cost Estimation (₹2,500)</h4>
+          <ul class="budget-cost-list">
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Transportation (Shared Auto)</span>
+              <span class="budget-item-value">₹400</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Accommodation (Budget Homestay)</span>
+              <span class="budget-item-value">₹1,200</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Meals (Restaurants)</span>
+              <span class="budget-item-value">₹500</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Snacks & Tea</span>
+              <span class="budget-item-value">₹150</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Attraction Entries</span>
+              <span class="budget-item-value">₹100</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Emergency Reserves</span>
+              <span class="budget-item-value">₹150</span>
+            </li>
+          </ul>
+        </div>
+        <div class="budget-itinerary">
+          <h4>Budget Explorer Route</h4>
+          <ul class="budget-steps">
+            <li class="budget-step">
+              <span class="budget-step-time">09:00 AM</span>
+              <span class="budget-step-text">Hire a shared auto-rickshaw to Eravikulam entrance.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">11:00 AM</span>
+              <span class="budget-step-text">Spot Nilgiri Tahrs in the mist inside the national park.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">02:00 PM</span>
+              <span class="budget-step-text">Lunch at Rapsy Restaurant, famous for its beef fry and biryani.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">04:30 PM</span>
+              <span class="budget-step-text">Watch the evening mist rise over Attukad waterfall viewpoint.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Panel 3: ₹5,000 -->
+      <div class="budget-panel" id="budget5k">
+        <div class="budget-breakdown">
+          <h4>Cost Estimation (₹5,000)</h4>
+          <ul class="budget-cost-list">
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Transportation (Private Cab hire)</span>
+              <span class="budget-item-value">₹1,500</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Accommodation (Mid-range Resort)</span>
+              <span class="budget-item-value">₹2,200</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Meals (Resort + Cafés)</span>
+              <span class="budget-item-value">₹800</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Snacks & Tea</span>
+              <span class="budget-item-value">₹200</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Attraction Entries</span>
+              <span class="budget-item-value">₹200</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Emergency Reserves</span>
+              <span class="budget-item-value">₹100</span>
+            </li>
+          </ul>
+        </div>
+        <div class="budget-itinerary">
+          <h4>Mid-Range Comfort Route</h4>
+          <ul class="budget-steps">
+            <li class="budget-step">
+              <span class="budget-step-time">10:00 AM</span>
+              <span class="budget-step-text">Enjoy comfortable cab sightseeing to Kundala Lake.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">01:00 PM</span>
+              <span class="budget-step-text">Take lunch inside Lockhart Tea Factory canteen.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">03:00 PM</span>
+              <span class="budget-step-text">Tour the Tea Museum and purchase fresh spices.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">06:00 PM</span>
+              <span class="budget-step-text">Relax on the resort balcony overlooking foggy valleys.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Panel 4: ₹8,000 -->
+      <div class="budget-panel" id="budget8k">
+        <div class="budget-breakdown">
+          <h4>Cost Estimation (₹8,000)</h4>
+          <ul class="budget-cost-list">
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Transportation (Private Luxury SUV)</span>
+              <span class="budget-item-value">₹2,200</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Accommodation (Premium Tea Cottage)</span>
+              <span class="budget-item-value">₹3,800</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Meals (High-End Dining)</span>
+              <span class="budget-item-value">₹1,200</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Tea Tastings & Spices</span>
+              <span class="budget-item-value">₹400</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Attraction Guides & entry</span>
+              <span class="budget-item-value">₹250</span>
+            </li>
+            <li class="budget-cost-item">
+              <span class="budget-item-label">Emergency Reserves</span>
+              <span class="budget-item-value">₹150</span>
+            </li>
+          </ul>
+        </div>
+        <div class="budget-itinerary">
+          <h4>Premium Misty Experience</h4>
+          <ul class="budget-steps">
+            <li class="budget-step">
+              <span class="budget-step-time">09:00 AM</span>
+              <span class="budget-step-text">Private jeep transfer to Kolukkumalai tea terraces.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">12:30 PM</span>
+              <span class="budget-step-text">Fine dining experience inside Lockhart Bungalow.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">03:30 PM</span>
+              <span class="budget-step-text">Private tea leaf harvesting workshop with an estate guide.</span>
+            </li>
+            <li class="budget-step">
+              <span class="budget-step-time">07:00 PM</span>
+              <span class="budget-step-text">Hot shower, candlelit dinner at resort with mountain acoustics.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Monsoon Food Section -->
+  <section id="food">
+    <div class="section-header">
+      <span class="section-label">Culinary Pleasures</span>
+      <h2 class="section-title">Food That Made the Rain Better</h2>
+    </div>
+    
+    <div class="food-grid">
+      <!-- Cardamom Tea -->
+      <div class="food-card">
+        <div class="food-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80" alt="Hot tea cup with steam rising" class="food-img">
+          <span class="food-price">₹15</span>
+        </div>
+        <div class="food-body">
+          <span class="food-taste">Warming & Sweet</span>
+          <h3>Cardamom Ginger Tea</h3>
+          <p>Steaming hot tea brewed with crushed ginger, fresh cardamom pods, and milk. It has a sweet, woody flavor that warms your core immediately in the cold rain.</p>
+          <div class="food-meta">
+            <div class="food-meta-item">
+              <span class="food-meta-label">Recommendation:</span>
+              <span>5 / 5 (Must-Have)</span>
+            </div>
+            <div class="food-meta-item">
+              <span class="food-meta-label">Best Try:</span>
+              <span>Local estate tea shacks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Pazham Pori -->
+      <div class="food-card">
+        <div class="food-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80" alt="Freshly fried banana fritters on display" class="food-img">
+          <span class="food-price">₹12</span>
+        </div>
+        <div class="food-body">
+          <span class="food-taste">Crispy & Sweet</span>
+          <h3>Pazham Pori</h3>
+          <p>Ripe local Nendran bananas dipped in a light flour batter and deep-fried until golden yellow. Crispy on the outside, sweet and soft on the inside.</p>
+          <div class="food-meta">
+            <div class="food-meta-item">
+              <span class="food-meta-label">Recommendation:</span>
+              <span>4.9 / 5</span>
+            </div>
+            <div class="food-meta-item">
+              <span class="food-meta-label">Best Try:</span>
+              <span>Street stalls near KSRTC bus stand</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Parippu Vada -->
+      <div class="food-card">
+        <div class="food-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=600&q=80" alt="Spicy fried dal fritters" class="food-img">
+          <span class="food-price">₹10</span>
+        </div>
+        <div class="food-body">
+          <span class="food-taste">Spicy & Savory</span>
+          <h3>Parippu Vada</h3>
+          <p>Coarsely ground chana dal (lentil) mixed with green chilies, minced ginger, curry leaves, and onions, deep-fried into a crunch ball. Perfect with ginger tea.</p>
+          <div class="food-meta">
+            <div class="food-meta-item">
+              <span class="food-meta-label">Recommendation:</span>
+              <span>4.8 / 5</span>
+            </div>
+            <div class="food-meta-item">
+              <span class="food-meta-label">Best Try:</span>
+              <span>Village wood-fire shacks</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photography Guide Section -->
+  <section id="photography" class="section-light">
+    <div class="section-header">
+      <span class="section-label">Creative Tips</span>
+      <h2 class="section-title">Rainy Day Photography Guide</h2>
+    </div>
+    
+    <div class="photo-guide-grid">
+      <div class="photo-tips-column">
+        <div class="photo-tip-box">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+              <circle cx="12" cy="13" r="4"></circle>
+            </svg>
+            Camera Settings
+          </h3>
+          <p>Switch your camera to Aperture Priority mode. Use a wide aperture (f/2.8 or f/4) to separate objects from the soft, misty background. To freeze rain droplets, use a high shutter speed (1/500s or faster). Keep your ISO slightly elevated (ISO 400 to 1600) to compensate for gray skies without adding too much digital noise.</p>
+        </div>
+        
+        <div class="photo-tip-box">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect>
+              <line x1="12" y1="18" x2="12.01" y2="18"></line>
+            </svg>
+            Mobile Photography
+          </h3>
+          <p>Turn on grid lines to align the horizons easily in low visibility. Lock your focus and exposure by tapping and holding on the screen, then pull the brightness down slightly to enhance the moody, stormy clouds. Tap on rain droplets hanging from leaves for beautiful macro focus shots.</p>
+        </div>
+        
+        <div class="photo-tip-box">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            Equipment Protection
+          </h3>
+          <p>Always keep a cheap plastic camera sleeve or rain cover in your bag. Use your lens hood at all times—it is the best defense against drifting water droplets landing on your front element. Tuck a small silica gel packet inside your camera pouch to absorb any humidity.</p>
+        </div>
+      </div>
+      
+      <div class="photo-tips-column">
+        <div class="photo-tip-box">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M2 12h20M12 2v20M4.93 4.93l14.14 14.14M4.93 19.07L19.07 4.93"></path>
+            </svg>
+            Reflection Photography
+          </h3>
+          <p>Puddles along wet mountain roads are natural mirrors. Hold your camera upside down and lower it until the lens is just a few inches above the water surface. Focus on the reflected image (like a tea gatherer or pine tree) to capture an artistic perspective.</p>
+        </div>
+        
+        <div class="photo-tip-box">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+            Street Photography
+          </h3>
+          <p>Stand under a shop roof awning and wait. The best rainy street photographs are about human emotion—a street vendor covering his cart, children running under a giant leaf, or the contrast of colorful umbrellas against wet, dark tarmac.</p>
+        </div>
+
+        <div class="photo-tip-box">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+            </svg>
+            The Post-Rain Glow
+          </h3>
+          <p>When the storm breaks, the light is incredibly beautiful. The wet tea leaves act as tiny reflectors, bouncing sunlight in all directions. Look for backlighting opportunities to capture the valley glowing with fresh moisture.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Lightbox Image Gallery -->
+  <section id="gallery">
+    <div class="section-header">
+      <span class="section-label">Captured Frames</span>
+      <h2 class="section-title">Rainy Days Visual Gallery</h2>
+    </div>
+    
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=400&q=80" data-src="https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?auto=format&fit=crop&w=1200&q=80" alt="Rain drops on window overlooking foggy street" class="gallery-img" loading="lazy">
+        <div class="gallery-info">
+          <h4>Rainy Streets</h4>
+          <p>Water droplets streaming down glass doors in Munnar town.</p>
+        </div>
+      </div>
+      
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1498847559558-1f4f129f8a2f?auto=format&fit=crop&w=400&q=80" data-src="https://images.unsplash.com/photo-1498847559558-1f4f129f8a2f?auto=format&fit=crop&w=1200&q=80" alt="People walking with umbrellas" class="gallery-img" loading="lazy">
+        <div class="gallery-info">
+          <h4>Color Umbrellas</h4>
+          <p>Locals walking along the misty winding roads near the estate.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" data-src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80" alt="Misty valley forest views" class="gallery-img" loading="lazy">
+        <div class="gallery-info">
+          <h4>Misty Valleys</h4>
+          <p>Heavy clouds rolling over Lockhart tea hills.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1483354483454-4cd359948304?auto=format&fit=crop&w=400&q=80" data-src="https://images.unsplash.com/photo-1483354483454-4cd359948304?auto=format&fit=crop&w=1200&q=80" alt="Macro drop details on leaf" class="gallery-img" loading="lazy">
+        <div class="gallery-info">
+          <h4>Water Droplets</h4>
+          <p>Macro close-up of crystal drops hanging from a tea shoot.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=400&q=80" data-src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=1200&q=80" alt="Golden lit tea shop" class="gallery-img" loading="lazy">
+        <div class="gallery-info">
+          <h4>Cozy Tea Stall</h4>
+          <p>Joseph's wooden shop shelter from the downpour.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&w=400&q=80" data-src="https://images.unsplash.com/photo-1482862549707-f63cb32c5fd9?auto=format&fit=crop&w=1200&q=80" alt="Umbrella reflections in water" class="gallery-img" loading="lazy">
+        <div class="gallery-info">
+          <h4>Mirror Puddles</h4>
+          <p>Upside-down reflection of tea fields on a wet trail.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1542856391-010fb87dcfed?auto=format&fit=crop&w=400&q=80" data-src="https://images.unsplash.com/photo-1542856391-010fb87dcfed?auto=format&fit=crop&w=1200&q=80" alt="Endless green carpets" class="gallery-img" loading="lazy">
+        <div class="gallery-info">
+          <h4>Green Terraces</h4>
+          <p>Tea slopes glowing in neon-green during monsoon showers.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1422405153578-4bd676b19036?auto=format&fit=crop&w=400&q=80" data-src="https://images.unsplash.com/photo-1422405153578-4bd676b19036?auto=format&fit=crop&w=1200&q=80" alt="Storm clouds over beach water" class="gallery-img" loading="lazy">
+        <div class="gallery-info">
+          <h4>Rainy Coastlines</h4>
+          <p>A panoramic view of Kerala backwaters in heavy monsoon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal DOM structure -->
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Image View">
+    <button class="lightbox-close" aria-label="Close Image">&times;</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Previous Image">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="15 18 9 12 15 6"></polyline>
+      </svg>
+    </button>
+    <div class="lightbox-content-wrapper">
+      <img src="" alt="" class="lightbox-img">
+      <div class="lightbox-caption"></div>
+    </div>
+    <button class="lightbox-nav lightbox-next" aria-label="Next Image">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Travel Safety & Mistakes Section -->
+  <section id="safety" class="section-light">
+    <div class="section-header">
+      <span class="section-label">Practical Lessons</span>
+      <h2 class="section-title">Mistakes I Made & Safety Tips</h2>
+    </div>
+    
+    <div class="destination-info">
+      <div>
+        <h3>My Rainy Travel Mistakes</h3>
+        <p><strong>1. Carrying Heavy Luggage:</strong> Climbing narrow, slippery paths carrying a heavy bag was exhausting. Travel light; you only need quick-dry activewear.</p>
+        <p><strong>2. Wearing Cotton Canvas Shoes:</strong> My favorite sneakers got wet in ten minutes and took three days to dry, giving me damp feet. Always choose rubber trekking sandals.</p>
+        <p><strong>3. Not Checking Road Closures:</strong> Assuming jeep trails are always open. Roads in the Western Ghats can close due to mudslides without warning.</p>
+        <p><strong>4. Forgetting Camera Rain Covers:</strong> Protecting my DSLR with a towel didn't work. Damp winds can get humidity inside the lenses, causing foggy glass.</p>
+      </div>
+      
+      <div>
+        <h3>Pro Tips for Monsoon Travel</h3>
+        <p><strong>• Weather Planning:</strong> Check the IMD (Indian Meteorological Department) forecasts regularly. Avoid travel when a red alert is issued.</p>
+        <p><strong>• Safety on Slippery Roads:</strong> Hill roads suffer from mudslides. Avoid driving two-wheelers, and stay away from slippery rocks near waterfalls.</p>
+        <p><strong>• Gear Security:</strong> Put all your electronics inside zip-lock bags before placing them in your backpack, even if your pack has a cover.</p>
+        <p><strong>• Booking Lodging:</strong> Book cottages with glass balconies. That way, if it rains all day, you can still sit comfortably and enjoy the views.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Things Rain Taught Me Section -->
+  <section id="reflection">
+    <div class="section-header">
+      <span class="section-label">Philosophy of Travel</span>
+      <h2 class="section-title">Things the Rain Taught Me</h2>
+    </div>
+    
+    <div class="moments-grid">
+      <div class="moment-card">
+        <h3>1. The Gift of Patience</h3>
+        <p>Monsoons don't follow schedules. Being stuck indoors teaches you to relax, read, and wait patiently for the clouds to break.</p>
+      </div>
+      
+      <div class="moment-card">
+        <h3>2. Embracing Flexibility</h3>
+        <p>When plans are washed away, you learn to adapt. The best travel experiences are often the ones you never planned.</p>
+      </div>
+
+      <div class="moment-card">
+        <h3>3. The Joy of Slowing Down</h3>
+        <p>You don't need to visit ten viewpoints to see Munnar. Sitting in a local tea shop for hours is a deeper way to experience the place.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section with Search Accordion -->
+  <section id="faq" class="section-light">
+    <div class="section-header">
+      <span class="section-label">Common Doubts</span>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+    </div>
+    
+    <!-- Live FAQ Search input -->
+    <div class="faq-search-wrapper">
+      <span class="faq-search-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </span>
+      <input type="text" id="faqSearch" class="faq-search-input" placeholder="Search FAQs (e.g. phone, clothes, landslides)...">
+    </div>
+    
+    <div class="faq-list">
+      <!-- FAQ 1 -->
+      <div class="faq-item">
+        <button class="faq-question-btn">
+          Is traveling during the rainy season worth it?
+          <span class="faq-icon-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-content">
+            Yes! If you love green hills, moody fog, lower resort prices, and empty viewpoints. It is not ideal if you hate getting damp or prefer dry walks.
+          </div>
+        </div>
+      </div>
+      
+      <!-- FAQ 2 -->
+      <div class="faq-item">
+        <button class="faq-question-btn">
+          How can I protect my phone from rain?
+          <span class="faq-icon-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-content">
+            Keep your phone inside a heavy-duty ziplock bag or a waterproof neck pouch. Avoid charging it when the charging port is damp.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="faq-item">
+        <button class="faq-question-btn">
+          What clothes should I wear during monsoon?
+          <span class="faq-icon-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-content">
+            Wear lightweight synthetic fabrics like polyester, activewear, or track pants that dry quickly. Avoid thick denims and cotton which hold water for long hours.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="faq-item">
+        <button class="faq-question-btn">
+          Is solo travel safe during monsoon?
+          <span class="faq-icon-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-content">
+            Generally, yes. But stay updated on weather alerts. Avoid walking through dense forests alone in heavy downpours, and avoid riding motorbikes on fog-covered roads at night.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="faq-item">
+        <button class="faq-question-btn">
+          Which destinations in Munnar are beautiful in the rain?
+          <span class="faq-icon-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-content">
+            Lockhart Tea Estate slopes, Attukad Waterfalls, Kundala Lake edge forests, and the narrow gap roads look spectacular under mist and light rain.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 6 -->
+      <div class="faq-item">
+        <button class="faq-question-btn">
+          How do I plan for bad weather?
+          <span class="faq-icon-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-content">
+            Keep your itinerary flexible. Plan indoor museum visits or cozy culinary breaks when the weather gets bad, and carry backup power banks and cash in case digital networks drop.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 7 -->
+      <div class="faq-item">
+        <button class="faq-question-btn">
+          Are there landslides in Munnar during monsoon?
+          <span class="faq-icon-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-content">
+            During periods of continuous heavy downpours, certain hill trails can experience mud slips. Stay on main arterial highways and check police updates before heading out.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 8 -->
+      <div class="faq-item">
+        <button class="faq-question-btn">
+          Is public transport available in Munnar when it rains?
+          <span class="faq-icon-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-content">
+            Yes, KSRTC buses operate on regular schedules, but delay timings are common during storms or visibility drops. Auto-rickshaws also run within town areas.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 9 -->
+      <div class="faq-item">
+        <button class="faq-question-btn">
+          What is the emergency contact in Kerala for disaster management?
+          <span class="faq-icon-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-content">
+            You can dial the National Disaster Management Authority at 1070, or Kerala state control helpline at 1077.
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQ 10 -->
+      <div class="faq-item">
+        <button class="faq-question-btn">
+          How do I avoid getting leech bites?
+          <span class="faq-icon-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-content">
+            When walking inside damp tea lawns, rub salt, eucalyptus oil, or apply commercial leech-guards around your ankles and boots to repel them.
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="faq-no-results">No matches found. Try searching for other terms!</div>
+  </section>
+
+  <!-- Related Articles Section -->
+  <section id="related">
+    <div class="section-header">
+      <span class="section-label">Read More</span>
+      <h2 class="section-title">Related Travel Stories</h2>
+    </div>
+    
+    <div class="related-grid">
+      <!-- Kochi Blog -->
+      <div class="related-card">
+        <div class="related-img-wrapper">
+          <div class="related-img-placeholder">Fort Kochi Solitary Trip</div>
+        </div>
+        <div class="related-content">
+          <span class="related-tag">Solo Travel</span>
+          <h4>My First Solo Trip to Fort Kochi: Everything I Learned</h4>
+          <a href="#" class="related-link">
+            Read Guide
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Kerala Budget -->
+      <div class="related-card">
+        <div class="related-img-wrapper">
+          <div class="related-img-placeholder">Kerala for under ₹2,000</div>
+        </div>
+        <div class="related-content">
+          <span class="related-tag">Budget Travel</span>
+          <h4>Explore Kerala for Under ₹2,000: Backpacking Tips</h4>
+          <a href="#" class="related-link">
+            Read Guide
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hidden Places -->
+      <div class="related-card">
+        <div class="related-img-wrapper">
+          <div class="related-img-placeholder">Hidden Kerala Valleys</div>
+        </div>
+        <div class="related-content">
+          <span class="related-tag">Offbeat Trails</span>
+          <h4>Hidden Places in Kerala You Should Visit (Secret Spots)</h4>
+          <a href="#" class="related-link">
+            Read Guide
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Author Profile Section -->
+  <section id="author" class="section-light">
+    <div class="author-box">
+      <div class="author-avatar-wrapper">
+        <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=300&q=80" alt="Travel writer smiling" class="author-avatar">
+      </div>
+      <div class="author-details">
+        <h3>Hi, I'm Angelin</h3>
+        <span class="author-title">Solo Backpacker & Visual Storyteller</span>
+        <p class="author-bio">I'm a photographer and travel blogger dedicated to exploring the offbeat corners of Kerala and writing authentic stories that show the beauty of slowing down. I hope my guides inspire you to seek adventure in the most unexpected weather.</p>
+        
+        <ul class="author-socials">
+          <li>
+            <a href="#" aria-label="Follow me on Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Follow me on Twitter">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Follow me on YouTube">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"></path>
+                <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"></polygon>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter signup Form -->
+  <section id="newsletter" class="newsletter-section">
+    <div class="newsletter-content">
+      <span class="newsletter-label">Stay Connected</span>
+      <h2>Join Fellow Explorers</h2>
+      <p>Join fellow travelers and receive inspiring travel stories, hidden destinations, budget tips, and seasonal travel guides directly in your inbox.</p>
+      
+      <form class="newsletter-form">
+        <input type="email" class="newsletter-input" placeholder="Your best email address..." aria-label="Email address" required>
+        <button type="submit" class="newsletter-btn">Subscribe</button>
+      </form>
+      <div class="newsletter-msg"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Misty Trails Stories</h3>
+        <p>A professional digital travel publication focusing on slow backpacking, nature photography, and authentic cultural stories in southern India.</p>
+      </div>
+      
+      <div class="footer-nav-groups">
+        <div class="footer-nav-group">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#story">Read Story</a></li>
+            <li><a href="#destination">Destinations</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-nav-group">
+          <h4>About</h4>
+          <ul class="footer-links">
+            <li><a href="#author">About Blogger</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-nav-group">
+          <h4>Legal</h4>
+          <ul class="footer-links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Disclaimer</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Misty Trails. Created by Angelin Abisha. All rights reserved.</p>
+      <ul class="footer-social-icons">
+        <li><a href="#" aria-label="Facebook"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a></li>
+        <li><a href="#" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a></li>
+        <li><a href="#" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script src="./app.js"></script>
+</body>
+</html>
